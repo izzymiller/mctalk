@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>everything's made up &amp; the points don't matter — Izzy Miller</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="deck">
+
+<!-- 1: Title -->
+<section class="slide title centered">
+  <p class="title-welcome">Welcome to our data benchmark, where&hellip;</p>
+  <h1 class="title-main">everything's made up<br/><span class="amp">&amp;</span> the points don't matter</h1>
+</section>
+
+<!-- 2: Who am I -->
+<section class="slide author">
+  <div class="two-col">
+    <div class="col-left">
+      <img src="assets/image-2-11.png" alt="Izzy" class="headshot"/>
+    </div>
+    <div class="col-right">
+      <h2>Izzy Miller</h2>
+      <p class="role">AI research <span class="muted">@</span> Hex</p>
+      <p class="handle"><span class="muted">@</span>isidoremiller</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3: Whose Line setup -->
+<section class="slide centered drew">
+  <p class="drew-top">Every time I look at a new public benchmark for data&hellip;</p>
+  <p class="drew-bottom fragment">&hellip;I'm struck by the same thing.</p>
+</section>
+
+<!-- 4: Drew Carey + punchline -->
+<section class="slide centered punchline">
+  <img src="assets/image-1-11.png" alt="Drew Carey on Whose Line Is It Anyway" class="hero-img drew-hero"/>
+  <div class="punchline-stack">
+    <p class="punch-line fragment">everything's made up</p>
+    <p class="punch-line fragment">the points don't matter</p>
+  </div>
+</section>
+
+<!-- 5: Levelset (Tom Gauld) -->
+<section class="slide levelset centered">
+  <img src="assets/image-5-11.png" alt="Tom Gauld cartoon" class="hero-cartoon"/>
+</section>
+
+<!-- 6: ADE-bench shoutout -->
+<section class="slide bench scrapbook ade-bench">
+  <div class="bench-header"><h2>ADE-bench</h2></div>
+  <div class="scrapbook-stage">
+    <img src="assets/ade-bench-1.png" alt="ADE-bench session" class="sb-img sb-1"/>
+    <img src="assets/ade-bench-overlay.png" alt="" class="sb-img sb-2"/>
+    <img src="assets/ade-bench-2.png" alt="" class="sb-img sb-3 fragment fade"/>
+  </div>
+</section>
+
+<!-- 7: Thesis -->
+<section class="slide centered thesis">
+  <p class="thesis-body">
+    We should be <em>benchmarking</em> agents using tasks, harnesses, and environments with the same level of realism as what they will actually be deployed into.
+  </p>
+</section>
+
+<!-- ==================== Part I ==================== -->
+
+<!-- 7: Section -->
+<section class="slide section-divider">
+  <h2 class="section-title">What does a real frontier benchmark look like?</h2>
+</section>
+
+<!-- 8: ProgramBench -->
+<section class="slide bench programbench-slide">
+  <div class="bench-header"><h2>ProgramBench</h2></div>
+  <div class="pb-stage">
+    <img src="assets/image-10-11.png" alt="ProgramBench paper" class="pb-paper"/>
+    <img src="assets/image-11-12.png" alt="SQLite KLOC stats" class="pb-overlay fragment"/>
+  </div>
+</section>
+
+<!-- 9: Vending-Bench -->
+<section class="slide bench vending-slide">
+  <div class="bench-header"><h2>Vending-Bench</h2></div>
+  <div class="vending-grid">
+    <img src="assets/image-12-12.png" alt="Vending bench" class="vending-card"/>
+    <img src="assets/image-12-11.png" alt="Money balance chart" class="vending-chart"/>
+  </div>
+</section>
+
+<!-- 10: Andon Market — chaotic stack -->
+<section class="slide bench scrapbook">
+  <div class="bench-header"><h2>Andon Market</h2></div>
+  <div class="scrapbook-stage">
+    <img src="assets/image-13-1.png"  alt="Andon Market on Google Maps"  class="sb-img sb-1"/>
+    <img src="assets/image-13-12.png" alt="3 year retail lease blog"    class="sb-img sb-2"/>
+    <img src="assets/image-13-13.png" alt="Two star Google review"      class="sb-img sb-3"/>
+  </div>
+</section>
+
+<!-- 11: BrowseComp — chaotic stack -->
+<section class="slide bench scrapbook">
+  <div class="bench-header"><h2>BrowseComp</h2></div>
+  <div class="scrapbook-stage">
+    <img src="assets/image-14-13.png" alt="BrowseComp paper"     class="sb-img sb-1"/>
+    <img src="assets/image-14-12.png" alt="Example question"     class="sb-img sb-2"/>
+    <img src="assets/image-14-11.png" alt="Solvability table"    class="sb-img sb-3"/>
+  </div>
+</section>
+
+<!-- 12: TerminalBench -->
+<section class="slide bench">
+  <div class="bench-header"><h2>TerminalBench</h2></div>
+  <div class="centered-img">
+    <img src="assets/image-15-11.png" alt="DNA Insert primer task example" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- 13: METR -->
+<section class="slide bench">
+  <div class="bench-header"><h2>METR</h2></div>
+  <div class="centered-img">
+    <img src="assets/image-16-11.png" alt="METR time horizon chart" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- 14: Frontier math -->
+<section class="slide bench">
+  <div class="bench-header"><h2>Frontier mathematics</h2></div>
+  <div class="centered-img">
+    <img src="assets/image-17-12.png" alt="MathOverflow problem proven by GPT-5" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- 15: Transition (kid GIF) -->
+<section class="slide centered transition-slide">
+  <img src="assets/kid-typing.gif" alt="enthusiastic kid typing" class="kid-gif large"/>
+</section>
+
+<!-- ==================== Part II ==================== -->
+
+<!-- 16: Section -->
+<section class="slide section-divider dark-divider">
+  <h2 class="section-title">Now let's take a look at data analytics.</h2>
+</section>
+
+<!-- 17: DSBench setup -->
+<section class="slide bench analytics">
+  <div class="bench-header"><h2>DSBench</h2></div>
+  <div class="two-col">
+    <div class="col-left">
+      <img src="assets/image-19-12.png" alt="DSBench paper" class="paper-img"/>
+    </div>
+    <div class="col-right">
+      <img src="assets/image-19-11.png" alt="DSBench accuracy chart" class="paper-img"/>
+    </div>
+  </div>
+</section>
+
+<!-- 18: DSBench multiple choice -->
+<section class="slide bench analytics">
+  <div class="bench-header"><h2>DSBench, actually</h2></div>
+  <div class="quiz-block">
+<pre class="quiz">Q. When valuing the stock of a real estate holding company,
+   most likely the Financial Modeler will give the greatest
+   weight to which method?
+   (a) Capitalization of earnings method
+   (b) Book value method
+   (c) Adjusted book value method
+   (d) Rule of thumb</pre>
+<pre class="quiz">Q. The formula <code>=$A$7+$A$8</code> uses?
+   (a) Absolute cell references
+   (b) Relative cell references
+   (c) Mixed cell references
+   (d) Indirect cell references</pre>
+<pre class="quiz">Q. In Excel, what is the primary difference between the
+   ISERR and ISERROR functions?
+   (a) ISERROR refers to a single cell, ISERR a range
+   (b) There is no difference; ISERR is short for ISERROR
+   (c) ISERR is a deprecated Lotus 1-2-3 compatibility function
+   (d) ISERR doesn't return true for #N/A!, but ISERROR does</pre>
+  </div>
+</section>
+
+<!-- 19: DSBench finance puzzle -->
+<section class="slide bench analytics finance-puzzle">
+  <div class="bench-header"><h2>DSBench, also actually</h2></div>
+  <pre class="finance-task">Your task is to build a model that has the following functions:
+
+When supplied with
+  (i)   an input string of 7 letters (e.g. <strong>F I N A N C E</strong>) and a wildcard;
+  (ii)  a value for N equal to 5, 6, or 7 representing the length of the words; and
+  (iii) a value for X (a positive integer):
+
+Your model should be able to identify:
+
+  1)  How many unique words of length N from the List can be made using
+      the input letters. (Each input letter can only be used once per word.
+      So if FINANCE is the input and N is 5, <strong>INANE</strong> is allowed
+      but <strong>FENCE</strong> is not — only one E available.)
+
+  2)  For a given value of X, the X<sup>th</sup> word in an alphabetically
+      sorted list of the words found in (1).
+
+  3)  Which word from those found in (1) scores the highest amount of points
+      when each letter has its corresponding score; if tied, the word that
+      appears first alphabetically.
+
+  4)  The score achieved from the optimal placement of the word in (3) above.</pre>
+</section>
+
+<!-- 20: Spider 2.0 -->
+<section class="slide bench analytics spider-slide spider-no-header">
+  <div class="spider-layout">
+    <img src="assets/image-21-11.png" alt="Spider 2.0 ICLR 2025 banner" class="spider-banner"/>
+    <pre class="instance spider-instance">{
+  <span class="json-key">"instance_id"</span>: <span class="json-str">"sf_local259"</span>,
+  <span class="json-key">"instruction"</span>: <span class="json-str">"For each player, list their ID, name, their most frequent
+    role across all matches, batting hand, bowling skill, total runs scored,
+    total matches played, total times they were dismissed, <mark>batting average
+    (total runs divided by total dismissals)</mark>, highest score in a single match,
+    the number of matches in which they scored <mark>at least 30 runs, at least 50
+    runs, and at least 100 runs</mark>, total balls faced in their career, <mark>strike
+    rate (total runs divided by total balls faced, multiplied by 100)</mark>, total
+    wickets taken, <mark>economy rate (average runs conceded per over)</mark>, and their
+    best bowling performance in a single match"</span>,
+  <span class="json-key">"db_id"</span>: <span class="json-str">"IPL"</span>,
+  <span class="json-key">"external_knowledge"</span>: <span class="json-str">"<mark class="strong-mark">baseball</mark>_game_special_words_definition.md"</span>
+}</pre>
+    <p class="spider-callout fragment">The English specifies every step of the SQL. The model is mapping prose to <code>WHERE</code> clauses. <br/>And the &ldquo;external knowledge&rdquo; file is for <strong>baseball</strong>&hellip; on a <strong>cricket</strong> dataset.</p>
+  </div>
+</section>
+
+<!-- 21: Tinybird -->
+<section class="slide bench analytics">
+  <div class="bench-header">
+    <h2>Tinybird AI SQL Benchmark</h2>
+  </div>
+  <div class="tinybird-grid">
+    <div class="tb-card">
+      <div class="tb-head">
+        <span class="tb-model">gpt-4o-mini</span>
+        <span class="tb-score score-bad">SUCCESS · 20.25</span>
+      </div>
+      <div class="tb-question">How has the total number of stars changed over time by year?</div>
+      <div class="tb-section">Generated SQL</div>
+      <pre class="tb-sql">SELECT
+  toYear(created_at) AS year,
+  countIf(event_type = 'WatchEvent') AS total_stars
+FROM github_events
+GROUP BY year
+ORDER BY year
+LIMIT 10</pre>
+      <div class="tb-section">Results</div>
+      <table class="tb-results">
+        <thead><tr><th>year</th><th>total_stars</th></tr></thead>
+        <tbody>
+          <tr><td>2011</td><td>0</td></tr>
+          <tr><td>2014</td><td>0</td></tr>
+          <tr><td>2015</td><td>0</td></tr>
+          <tr><td>2016</td><td>814207</td></tr>
+          <tr><td>2017</td><td>6490905</td></tr>
+          <tr><td>2018</td><td>0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tb-card">
+      <div class="tb-head">
+        <span class="tb-model">human (reference)</span>
+        <span class="tb-score score-good">SUCCESS · 100.00</span>
+      </div>
+      <div class="tb-question">How has the total number of stars changed over time by year?</div>
+      <div class="tb-section">Generated SQL</div>
+      <pre class="tb-sql">SELECT
+  toYear(created_at) AS year,
+  count() AS stars
+FROM github_events
+WHERE event_type = 'WatchEvent'
+GROUP BY year
+ORDER BY year</pre>
+      <div class="tb-section">Results</div>
+      <table class="tb-results">
+        <thead><tr><th>year</th><th>stars</th></tr></thead>
+        <tbody>
+          <tr><td>2016</td><td>814207</td></tr>
+          <tr><td>2017</td><td>6490905</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 22: DABstep — task + extracted answer table -->
+<section class="slide bench analytics">
+  <div class="bench-header"><h2>DABstep</h2></div>
+  <div class="two-col">
+    <div class="col-left">
+      <img src="assets/image-23-11.png" alt="DABstep example task" class="full-img"/>
+    </div>
+    <div class="col-right">
+      <table class="fraud-table">
+        <thead>
+          <tr><th>ip_country</th><th class="num">fraud volume</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>NL</td><td class="num">2,900</td></tr>
+          <tr><td>BE</td><td class="num">2,400</td></tr>
+          <tr><td>ES</td><td class="num">1,600</td></tr>
+          <tr><td>IE</td><td class="num">1,600</td></tr>
+          <tr><td>FR</td><td class="num">900</td></tr>
+          <tr><td>IT</td><td class="num">450</td></tr>
+          <tr><td>DE</td><td class="num">430</td></tr>
+          <tr><td>GB</td><td class="num">410</td></tr>
+        </tbody>
+      </table>
+      <p class="caption">Required answer format: <code>"X. Y"</code>. <em>Pick a letter.</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- 23: DABstep — visual answer -->
+<section class="slide bench analytics">
+  <div class="bench-header">
+    <h2>DABstep</h2>
+  </div>
+  <div class="centered-img">
+    <img src="assets/image-24-12.png" alt="Fraud by country chart" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- 24: DABstep — judging issues forum -->
+<section class="slide bench analytics">
+  <div class="bench-header">
+    <h2>Judging data results is hard.</h2>
+  </div>
+  <div class="centered-img">
+    <img src="assets/dabstep-forum.png" alt="DABstep judging issues forum thread" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- 24b: DABstep scorer.py annotated -->
+<section class="slide bench analytics scorer-slide">
+  <div class="bench-header">
+    <h2>The scorer itself, annotated</h2>
+  </div>
+  <div class="scorer-stage">
+    <pre class="scorer-code"><span class="kw">def</span> <span class="fn">compare_numeric</span>(num1: <span class="ty">float</span>, num2: <span class="ty">float</span>) -&gt; <span class="ty">bool</span>:
+    <span class="kw">if</span> num1 == num2:
+        <span class="kw">return</span> <span class="lit">True</span>
+
+    <span class="cmt"># For percentages and small numbers, lenient comparison</span>
+    <span class="kw">if</span> num1 &lt; <span class="lit">1</span> <span class="kw">and</span> num2 &lt; <span class="lit">1</span>:
+<mark class="ln" data-tag="A">        <span class="kw">return</span> math.isclose(num1, num2, rel_tol=<span class="lit">1e-2</span>, abs_tol=<span class="lit">1e-4</span>)</mark>
+
+    <span class="cmt"># For larger numbers, use the original comparison method</span>
+    dec_places1 = <span class="fn">len</span>(<span class="fn">str</span>(num1).split(<span class="str">'.'</span>)[-<span class="lit">1</span>]) <span class="kw">if</span> <span class="str">'.'</span> <span class="kw">in</span> <span class="fn">str</span>(num1) <span class="kw">else</span> <span class="lit">0</span>
+    dec_places2 = <span class="fn">len</span>(<span class="fn">str</span>(num2).split(<span class="str">'.'</span>)[-<span class="lit">1</span>]) <span class="kw">if</span> <span class="str">'.'</span> <span class="kw">in</span> <span class="fn">str</span>(num2) <span class="kw">else</span> <span class="lit">0</span>
+<mark class="ln" data-tag="B">    round_to = <span class="fn">min</span>(dec_places1, dec_places2)
+    rounded1 = <span class="fn">round</span>(num1, round_to)
+    rounded2 = <span class="fn">round</span>(num2, round_to)</mark>
+
+    <span class="kw">if</span> rounded1 == rounded2:
+        <span class="kw">return</span> <span class="lit">True</span>
+<mark class="ln" data-tag="C">    <span class="kw">return</span> math.isclose(num1, num2, rel_tol=<span class="lit">1e-2</span>, abs_tol=<span class="lit">1e-2</span>)</mark>
+
+
+<span class="kw">def</span> <span class="fn">extract_numeric</span>(value: <span class="ty">str</span>) -&gt; <span class="ty">Union</span>[<span class="ty">float</span>, <span class="lit">None</span>]:
+    value = value.replace(<span class="str">','</span>, <span class="str">''</span>).replace(<span class="str">'$'</span>, <span class="str">''</span>)
+<mark class="ln" data-tag="D">    match = re.search(<span class="str">r'(\d*\.\d+|\d+\.?\d*)%?'</span>, value)</mark>
+<mark class="ln cmt-mark" data-tag="E">    <span class="cmt"># @martini: ground truths are in % now, no need for this</span>
+    <span class="cmt"># if '%' in value: return float(num_str) / 100</span></mark>
+    <span class="kw">return</span> <span class="fn">float</span>(match.group(<span class="lit">1</span>)) <span class="kw">if</span> match <span class="kw">else</span> <span class="lit">None</span>
+
+
+<span class="kw">def</span> <span class="fn">compare_strings</span>(str1: <span class="ty">str</span>, str2: <span class="ty">str</span>) -&gt; <span class="ty">bool</span>:
+    <span class="cmt"># ... punctuation strip + word-list extraction omitted ...</span>
+
+<mark class="ln" data-tag="F">    <span class="kw">if</span> (<span class="fn">len</span>(words1) == <span class="lit">1</span> <span class="kw">or</span> <span class="fn">len</span>(words2) == <span class="lit">1</span>) <span class="kw">and</span> words1 <span class="kw">and</span> words2:
+        <span class="kw">return</span> <span class="fn">set</span>(words1).issubset(<span class="fn">set</span>(words2)) <span class="kw">or</span> <span class="fn">set</span>(words2).issubset(<span class="fn">set</span>(words1))</mark>
+
+    similarity = SequenceMatcher(<span class="lit">None</span>, str1, str2).ratio()
+<mark class="ln" data-tag="G">    <span class="kw">return</span> similarity &gt; <span class="lit">0.95</span></mark></pre>
+
+    <div class="annotations">
+      <div class="anno anno-A"><span class="anno-tag">A</span><p>Magic tolerance for &lt;1 values.</p></div>
+      <div class="anno anno-B"><span class="anno-tag">B</span><p>Rounds both answers to the <em>lesser</em> precision.</p></div>
+      <div class="anno anno-C"><span class="anno-tag">C</span><p>Different magic tolerance for everything else.</p></div>
+      <div class="anno anno-D"><span class="anno-tag">D</span><p>Regex grabs the first number in the string.</p></div>
+      <div class="anno anno-E"><span class="anno-tag">E</span><p>Percentage handling is commented out.</p></div>
+      <div class="anno anno-F"><span class="anno-tag">F</span><p>Subset match only if one side has exactly one word.</p></div>
+      <div class="anno anno-G"><span class="anno-tag">G</span><p>Hardcoded <code>0.95</code> similarity threshold.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- DARE-bench task 1 -->
+<section class="slide bench analytics dare-task dare-split">
+  <div class="bench-header"><h2>DARE-Bench</h2></div>
+  <div class="dare-layout-split">
+  <img src="assets/image-26-11.png" alt="Snowflake DARE-Bench blog post" class="dare-banner-side"/>
+  <pre class="task-wall">First, load the file <code>train_v1.csv</code> directly, treating only empty strings ("") as missing values. Next, filter the training dataset according to the expected data ranges defined in the metadata, but retain any rows that have missing values in the relevant columns. In other words, exclude only those rows in which a known (non-missing) value falls outside the specified ranges: the slope of the peak exercise ST segment must be one of Up, Flat or Down; the patient's age must be between 28 and 77 years inclusive; serum cholesterol must be between 0 and 603 mg/dl; exercise-induced angina must be N or Y; chest pain type must be ATA, NAP, ASY or TA; sex must be M or F; the maximum heart rate achieved must be between 60 and 202; ST depression must be between –3.0 and 7.0; resting blood pressure must be between 0 and 200 mm Hg; and resting electrocardiogram results must be Normal, ST or LVH.
+
+After filtering, select only the following features for training, in the order listed: resting electrocardiogram results, resting blood pressure, ST depression, serum cholesterol, chest pain type and sex of the patient. Treat resting blood pressure, ST depression and serum cholesterol as numeric features in the listed order. Treat resting electrocardiogram results, chest pain type and sex of the patient as categorical features in the listed order. Handle missing values by imputing the most frequent value for both numeric and categorical features.
+
+Preprocess the data by applying a standard scaler to the numeric features and one-hot encoding to the categorical features with handle_unknown set to ignore and sparse_output set to False. Then train a single DecisionTreeClassifier from scikit-learn with random_state=27, using default settings for all other parameters.
+
+Finally, make predictions on the validation set in <code>val_v1.csv</code> and save the results to a CSV file at <code>prediction.csv</code>...</pre>
+  </div>
+</section>
+
+<!-- 25: DARE-bench task 2 -->
+<section class="slide bench analytics dare-task">
+  <div class="bench-header"><h2>DARE-Bench</h2></div>
+  <pre class="task-wall">First, load the training file directly from <code>train_v1.parquet</code>. Then filter the training dataset using the expected ranges defined in educational qualification = ["phd", "bachelor", "masters"], gender = ["female", "male"], age in years = [18.0, 50.0], fictional location = ["asgard", "purgatory", "wakanda", "gotham"], cumulative grade point average = [4.0, 10.0], and fictional character name = ["moriarity", "holmes", "sam", "bobby", "castiel", "sherlock", "watson", "dean"], but make sure to retain any rows that have missing values in the relevant columns&hellip;
+
+Train a single model using MLPClassifier from scikit-learn with random_state=55. Finally, make predictions on the validation set <code>val_v1.parquet</code> and save the results to a CSV file at <code>prediction.csv</code>.</pre>
+</section>
+
+<!-- 26: BIRD -->
+<section class="slide bench analytics">
+  <div class="bench-header"><h2>BIRD's &ldquo;Data Intelligence Index&rdquo;</h2></div>
+  <div class="two-col">
+    <div class="col-left">
+      <img src="assets/image-30-11.png" alt="BIRD leaderboard" class="paper-img"/>
+    </div>
+    <div class="col-right">
+      <pre class="bird-task">For each combination of subscription status, gender, occupation, and age group, examine how users differ in terms of their <em>User Subscription Value</em> (USV) and <em>User Demographic Score</em> (UDS). Only include segments with more than 10 users, and show me the group's subscription type, gender, occupation, age group bucket ('Under 25', '25-34', '35-44', '45-54', '55+'), number of users, average USV, average UDS, average satisfaction score, and the shared interests as a comma-separated list. Return the top 15 groups ranked by average USV (descending), and break ties using average UDS.</pre>
+    </div>
+  </div>
+</section>
+
+<!-- 30: Deep breaths -->
+<section class="slide centered breath">
+  <img src="assets/deep-breath.gif" alt="Deep breaths" class="gif-img big-gif"/>
+</section>
+
+<!-- ==================== Part III ==================== -->
+
+<section class="slide section-divider">
+  <h2 class="section-title">Nine flaws holding us back.</h2>
+</section>
+
+<!-- The nine flaws -->
+<section class="slide flaws-slide">
+  <ol class="flaws-list">
+    <li>Fixation on single-shot text-to-SQL</li>
+    <li>Low diversity of failure modes</li>
+    <li>Insufficiently curated datasets</li>
+    <li>Inaccurate grading</li>
+    <li>Grounded in academia, not industry</li>
+    <li>Unrealistic environments</li>
+    <li>Unrealistic tasks</li>
+    <li>Fundamentally non-agentic tasks</li>
+    <li class="flaw-final fragment">Stateless evaluation&nbsp;<span class="warn">‼</span></li>
+  </ol>
+</section>
+
+<!-- Invert (per-row fragments) -->
+<section class="slide flaws-slide">
+  <div class="invert-grid">
+    <div class="invert-row"><span class="bad">Fixation on single-shot text-to-SQL</span> <span class="arrow">→</span> <span class="good fragment">Analytical reasoning, not syntax</span></div>
+    <div class="invert-row"><span class="bad">Low diversity of failure modes</span> <span class="arrow">→</span> <span class="good fragment">Diverse realistic gotchas</span></div>
+    <div class="invert-row"><span class="bad">Insufficiently curated datasets</span> <span class="arrow">→</span> <span class="good fragment">One handcrafted, purpose-built dataset</span></div>
+    <div class="invert-row"><span class="bad">Inaccurate grading</span> <span class="arrow">→</span> <span class="good fragment">Calibrated LLM-judge grading</span></div>
+    <div class="invert-row"><span class="bad">Grounded in academia, not industry</span> <span class="arrow">→</span> <span class="good fragment">Maintained by someone in the field</span></div>
+    <div class="invert-row"><span class="bad">Unrealistic environments</span> <span class="arrow">→</span> <span class="good fragment">Rich, complex execution environment</span></div>
+    <div class="invert-row"><span class="bad">Unrealistic tasks</span> <span class="arrow">→</span> <span class="good fragment">Realistically complex analytics work</span></div>
+    <div class="invert-row"><span class="bad">Fundamentally non-agentic tasks</span> <span class="arrow">→</span> <span class="good fragment">Genuinely agentic tasks</span></div>
+    <div class="invert-row pending"><span class="bad">Stateless evaluation</span> <span class="arrow">→</span> <span class="good fragment">???</span></div>
+  </div>
+</section>
+
+<!-- ==================== Part IV ==================== -->
+
+<!-- Memento story -->
+<section class="slide story-slide">
+  <div class="story-text-large">
+    <p>You wake up in a strange room with a computer. You've never been in this room before, or seen this computer.</p>
+    <p class="fragment">There's a note: <em>&ldquo;We'll let you out if you can correctly determine the total unpaid invoice amount. You have 10 minutes.&rdquo;</em></p>
+    <p class="fragment">You explore. Find CSVs. Run queries. Double-check. Submit.</p>
+    <p class="fragment">The voice says: <em>&ldquo;Sorry &mdash; you forgot to filter out the 5 test invoices. There's no <code>is_test</code> column, but if you'd dug into user metadata you'd have seen they were obvious. Wasn't documented. Better luck next time.&rdquo;</em></p>
+    <p class="fragment">Everything goes black.</p>
+    <p class="repeat fragment">You wake up in a strange room with a computer&hellip;</p>
+  </div>
+  <img src="assets/image-39-11.png" alt="Memento" class="memento-punchline fragment"/>
+</section>
+
+<!-- I do not care / care -->
+<section class="slide centered argue">
+  <p class="big-text-sub argue-line">
+    I do not care if Claude makes a mistake <em>once</em>.
+  </p>
+  <p class="big-text-sub argue-line fragment">
+    I care a lot if Claude makes that mistake <em>again</em>.
+  </p>
+  <p class="punch fragment">So&hellip; shouldn't we test what we care about?</p>
+</section>
+
+<!-- Statefulness pillar -->
+<section class="slide statefulness centered">
+  <p class="huge-word">Statefulness.</p>
+</section>
+
+<!-- BIRD 100% + reward-hacking framing -->
+<section class="slide bird-flip">
+  <div class="bird-chart-wrap">
+    <table class="bird-chart">
+      <thead>
+        <tr><th>Benchmark</th><th class="bc-bar-h">reported top score</th><th class="bc-bar-h after">with stateful retry &amp; judge fixes</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BIRD-SQL</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 73%"></div><span class="bc-val">73%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+        <tr>
+          <td>Spider 2.0</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 30%"></div><span class="bc-val">30%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+        <tr>
+          <td>Tinybird</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 52%"></div><span class="bc-val">52%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+        <tr>
+          <td>DABstep</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 47%"></div><span class="bc-val">47%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+        <tr>
+          <td>DARE-Bench</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 51%"></div><span class="bc-val">51%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+        <tr>
+          <td>DSBench</td>
+          <td><div class="bc-bar"><div class="bc-fill before" style="width: 67%"></div><span class="bc-val">67%</span></div></td>
+          <td><div class="bc-bar"><div class="bc-fill after" style="width: 100%"></div><span class="bc-val">100%</span></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="reward-hack-line fragment punch">What these benchmarks call <em>cheating</em> is what I call <em>being a good analyst</em>.</p>
+  <p class="bird-footnote">* extrapolated from small test-set extracts.</p>
+</section>
+
+<!-- Pandora -->
+<section class="slide pandora centered">
+  <img src="assets/image-44-11.png" alt="Pandora's box" class="hero-img"/>
+</section>
+
+<!-- ==================== Part V: Metric City ==================== -->
+
+<!-- Section + Tagline (consolidated) -->
+<section class="slide centered mc-tagline">
+  <p class="mc-eyebrow">a benchmark for long-horizon data analysis agents</p>
+  <h2 class="mc-name">MetricCity</h2>
+  <p class="mc-question fragment">Can an agent stay <em>coherent</em> across 90 simulated days of <em>messy</em> enterprise data work?</p>
+</section>
+
+<!-- Made up callback -->
+<section class="slide mc-aside">
+  <div class="two-col">
+    <div class="col-left">
+      <div class="city-card">
+        <div class="city-name">METRIC&nbsp;CITY</div>
+        <div class="city-tag">v0.1 · internal</div>
+      </div>
+    </div>
+    <div class="col-right">
+      <ul class="city-list">
+        <li class="fragment">completely made up</li>
+        <li class="fragment">and the points don't matter</li>
+        <li class="fragment">and it's super janky</li>
+        <li class="fragment">and costs ten million dollars to run</li>
+        <li class="fragment">and no, i will never, ever open-source it.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- The setup: numbers -->
+<section class="slide mc-numbers centered">
+  <div class="mc-stat-row">
+    <div class="mc-stat"><div class="mc-stat-n">90</div><div class="mc-stat-l">simulated days</div></div>
+    <div class="mc-stat"><div class="mc-stat-n">8.3M</div><div class="mc-stat-l">warehouse rows</div></div>
+    <div class="mc-stat"><div class="mc-stat-n">280</div><div class="mc-stat-l">benchmark questions</div></div>
+    <div class="mc-stat"><div class="mc-stat-n">294</div><div class="mc-stat-l">stakeholder tickets</div></div>
+    <div class="mc-stat"><div class="mc-stat-n">23</div><div class="mc-stat-l">named semantic traps</div></div>
+  </div>
+</section>
+
+<!-- The world -->
+<section class="slide mc-world">
+  <div class="bench-header"><h2>Shorelane Commerce.</h2></div>
+  <pre class="mc-schema">raw_orders                  // 4.1M rows · platform migration mid-2021
+  order_id           text     // SH- (2015-21)  ·  ORD- (2021+)  ·  OMD- (acquisition)
+  customer_id        text     // joins stg_customers.cust_id; also see customer_uuid below
+  customer_uuid      uuid     // populated 2022+ only · canonical from then on
+  subtotal_cents     int      // not always cents (sic) · ~3% rows in dollars
+  channel            text     // 'mobile' renamed to 'mobile_app' Apr 2022 · also 'web' / 'app'
+  status_code        int      // 1..5 · undocumented · 3 = "paused" not "active"
+  is_test            bool     // often null · weekly tests of invoice system
+  is_employee_discount bool   // exclude from all customer-facing rollups
+  created_at         ts       // PST until 2022-07 · UTC after · no migration backfill
+
+stg_subscriptions           // 480k rows · canonical for MRR · fresh
+  sub_id, customer_uuid, plan_code, plan_tier, mrr_cents, started_at, churned_at
+  // plan rename: 'starter-2019' → 'starter' (2021), 'pro-legacy' → 'pro' (2022)
+
+stripe_charges              // 1.0M rows · amounts in CENTS
+  stripe_id, amount, status, paid, charge_currency, customer_stripe_id
+  // customer_stripe_id ≠ customer_uuid · multiple stripe customers per real customer
+
+stripe_refunds              // 92k rows · amounts in CENTS
+  refund_id, charge_id, amount, reason
+
+salesforce_accounts         // 38k rows · CS-managed · stale lag ~7 days
+  sf_account_id, customer_uuid, segment, csm_owner
+
+mart_arr_monthly            // stale last refresh 2024-09 · includes OMD- rollups
+  quarter, net_revenue numeric         // do not use without filtering OMD-
+
+fct_orders                  // dbt-modeled · is_valid_order flag · refunds joined in
+mart_marketing_spend        // platform-reported · attribution inflated · cite cautiously
+mart_cohort_retention       // cohort definitions changed twice (2020, 2022)</pre>
+</section>
+
+<!-- Anatomy of a trap: OfficeMax -->
+<section class="slide mc-trap">
+  <div class="bench-header">
+    <h2>Anatomy of a trap</h2>
+  </div>
+  <div class="trap-grid">
+    <div class="trap-card trap-wrong">
+      <div class="trap-head"><span class="trap-label">NAIVE QUERY</span><span class="trap-verdict wrong">WRONG</span></div>
+      <pre class="trap-sql"><span class="kw">SELECT</span> <span class="fn">SUM</span>(net_revenue)
+<span class="kw">FROM</span> mart_arr_monthly
+<span class="kw">WHERE</span> quarter = <span class="str">'2025-Q3'</span></pre>
+      <div class="trap-result">$14,820,332 <span class="x">✗</span></div>
+    </div>
+    <div class="trap-card trap-right">
+      <div class="trap-head"><span class="trap-label">CORRECT QUERY</span><span class="trap-verdict right">RIGHT</span></div>
+      <pre class="trap-sql"><span class="kw">SELECT</span> <span class="fn">SUM</span>(net_revenue)
+<span class="kw">FROM</span> mart_arr_monthly
+<span class="kw">WHERE</span> quarter = <span class="str">'2025-Q3'</span>
+  <span class="kw">AND</span> order_prefix <span class="kw">NOT LIKE</span> <span class="str">'OMD-%'</span></pre>
+      <div class="trap-result">$12,403,481 <span class="check">✓</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Sample gotchas -->
+<section class="slide mc-gotchas">
+  <div class="bench-header"><h2>23 of these.</h2></div>
+  <div class="gotcha-grid">
+    <div class="gotcha">
+      <div class="gotcha-id">G-02</div>
+      <p><strong>SH- vs ORD-.</strong> Two platforms, migration cutover 2021-06. Reports double-count.</p>
+    </div>
+    <div class="gotcha">
+      <div class="gotcha-id">G-07</div>
+      <p><strong>ARR ≠ MRR × 12.</strong> Annual plans get two months free. Naive rollups overstate by ~17%.</p>
+    </div>
+    <div class="gotcha">
+      <div class="gotcha-id">G-09</div>
+      <p><strong>Attribution inflation.</strong> Every platform claims the same conversions. The board deck uses the inflated numbers.</p>
+    </div>
+    <div class="gotcha">
+      <div class="gotcha-id">G-11</div>
+      <p><strong>Undocumented status codes.</strong> Status integer <code>3</code> means &ldquo;paused,&rdquo; not &ldquo;active.&rdquo; Nobody documented it.</p>
+    </div>
+    <div class="gotcha">
+      <div class="gotcha-id">G-14</div>
+      <p><strong>Cents vs dollars.</strong> Stripe stores cents; orders are dollars. Joins that forget look <em>almost</em> right.</p>
+    </div>
+    <div class="gotcha">
+      <div class="gotcha-id">G-23</div>
+      <p><strong>The modeling layer is a trap too.</strong> Some dbt marts double-count refunds; stakeholders cite stale views.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Trajectory: real TKT-026 from Opus 4.7 run -->
+<section class="slide mc-trajectory">
+  <div class="tkt-card">
+    <div class="tkt-head">
+      <span class="tkt-id">TKT-026</span>
+      <span class="tkt-meta">Day 40 · Claude Opus 4.7 · 8 tool calls · $0.42</span>
+      <span class="tkt-verdict">CORRECT</span>
+    </div>
+    <div class="tkt-row">
+      <div class="tkt-actor">stakeholder</div>
+      <div class="tkt-body">Hi, I'm doing a mobile traffic analysis. Can you pull:
+        (1) mobile orders over time monthly, (2) mobile as % of total orders, (3) mobile revenue trend.
+        I want to see the full picture &mdash; not just recent data. Thanks, Ryan.
+      </div>
+    </div>
+
+    <div class="tkt-row tkt-thinking">
+      <div class="tkt-actor">thinking</div>
+      <div class="tkt-body"><em>I'm starting to dig into how the warehouse is organized.</em></div>
+    </div>
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <pre class="tkt-pre">list_files .
+read_file data_dictionary.md
+read_file fct_orders_notes.md
+read_file platform_history.md</pre>
+    </div>
+
+    <div class="tkt-row tkt-thinking">
+      <div class="tkt-actor">thinking</div>
+      <div class="tkt-body"><em>I need to examine what channels and date ranges are available, and look back at the platform history for context.</em></div>
+    </div>
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <pre class="tkt-pre">query_warehouse:
+  SELECT channel, COUNT(*) FROM fct_orders
+  WHERE is_valid_order AND NOT COALESCE(is_employee_discount, false)
+  GROUP BY 1 ORDER BY 2 DESC;</pre>
+    </div>
+
+    <div class="tkt-row tkt-thinking">
+      <div class="tkt-actor">thinking</div>
+      <div class="tkt-body"><em>I'm noticing that &ldquo;mobile&rdquo; was renamed to &ldquo;mobile_app&rdquo; around 2022, so I need to treat both labels as the same category for tracking the trend across time. Let me verify whether they overlap in 2022.</em></div>
+    </div>
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <pre class="tkt-pre">query_warehouse:
+  SELECT channel, DATE_TRUNC('month', created_at) m, COUNT(*)
+  FROM fct_orders
+  WHERE channel IN ('mobile', 'mobile_app')
+    AND DATE_TRUNC('year', created_at) = '2022-01-01'
+    AND is_valid_order AND NOT COALESCE(is_employee_discount, false)
+  GROUP BY 1, 2 ORDER BY 2, 1;</pre>
+    </div>
+
+    <div class="tkt-row tkt-thinking">
+      <div class="tkt-actor">thinking</div>
+      <div class="tkt-body"><em>Mobile is stable at ~25% of orders historically; the naming shifted from &ldquo;mobile&rdquo; to &ldquo;mobile_app&rdquo; in April 2022 with no overlap. Ryan asked for monthly breakdowns &mdash; I should provide that level of detail.</em></div>
+    </div>
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <pre class="tkt-pre">query_warehouse:
+  WITH base AS (
+    SELECT DATE_TRUNC('month', created_at) AS month,
+           CASE WHEN channel IN ('mobile','mobile_app') THEN 1 ELSE 0 END AS is_mobile,
+           total_amount
+    FROM fct_orders
+    WHERE is_valid_order AND NOT COALESCE(is_employee_discount, false)
+  )
+  SELECT month,
+         SUM(is_mobile)                                  AS mobile_orders,
+         COUNT(*)                                        AS total_orders,
+         ROUND(100.0 * SUM(is_mobile) / COUNT(*), 2)     AS mobile_pct_orders,
+         ROUND(SUM(CASE WHEN is_mobile=1 THEN total_amount END), 2) AS mobile_revenue,
+         ROUND(SUM(total_amount), 2)                     AS total_revenue
+  FROM base
+  GROUP BY 1 ORDER BY 1;</pre>
+    </div>
+
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <div class="tkt-body">submit_ticket_response: &ldquo;Hi Ryan, here's the full mobile-traffic picture from Jan 2019 through 2024-07. <strong>Mobile is ~25% of orders and ~25% of revenue with remarkable stability since 2020.</strong> I combined channel values <code>mobile</code> (2019&ndash;Mar 2022) and <code>mobile_app</code> (Apr 2022+) since the channel was renamed.&rdquo;</div>
+    </div>
+
+    <div class="tkt-row tkt-system">
+      <div class="tkt-actor">runtime</div>
+      <div class="tkt-body"><em>&ldquo;You have resolved this ticket. You can either end the session to move on, or spend a moment doing proactive exploration and knowledge curation if there are threads from this work you want to follow up on &mdash; but only if you have specific things in mind. Do not investigate other tickets or open new work. Use end_session() when you're done.&rdquo;</em></div>
+    </div>
+
+    <div class="tkt-row">
+      <div class="tkt-actor">agent</div>
+      <pre class="tkt-pre">write_file workspace/tkt026_mobile_traffic.md:
+  Mobile defined as channel IN ('mobile', 'mobile_app').
+  Channel renamed mobile → mobile_app in Apr 2022 (clean cutover, no overlap).
+  Warehouse freshness: max created_at = 2024-07-31 23:59. 2024 numbers are YTD through July.
+  Yearly: 2019 26.4% / 2020 25.5% / 2021 25.2% / 2022 25.1% / 2023 25.5%.</pre>
+    </div>
+
+    <div class="tkt-row tkt-judge">
+      <div class="tkt-actor">judge</div>
+      <div class="tkt-body">Passed. <em>&ldquo;The agent response captures all requested metrics over the full time period with correct trends and shares, meeting the task requirements&hellip; correctly aligns the channel definitions and date windows with the ground-truth SQL.&rdquo;</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- Opus vs Haiku contrast: TKT-507 -->
+<section class="slide mc-contrast">
+  <div class="bench-header">
+    <h2>TKT-507 &mdash; CFO asks for Q1 board numbers</h2>
+    <p class="bench-blurb">Day 87. Orders &amp; Stripe frozen at 2024-07-31 for 87 days.</p>
+  </div>
+  <div class="contrast-grid">
+    <div class="contrast-card opus">
+      <div class="contrast-head">
+        <span class="contrast-model">Opus 4.7</span>
+        <span class="contrast-verdict pass">CORRECT</span>
+      </div>
+      <p class="contrast-quote">&ldquo;I have to flag this hard before the deck goes out&hellip; of the nine numbers you asked for, <strong>only one is defensibly producible</strong>. The rest are blocked by the same ETL gap I flagged on TKT-493 (10/14) and TKT-495 (10/16).&rdquo;</p>
+      <div class="contrast-list">
+        <div><span class="dot bad">do not publish</span> Q1 Net Revenue</div>
+        <div><span class="dot bad">do not publish</span> Q4 → Q1 growth</div>
+        <div><span class="dot bad">do not publish</span> YoY growth</div>
+        <div><span class="dot bad">do not publish</span> Customer counts</div>
+        <div><span class="dot bad">do not publish</span> CAC / LTV</div>
+        <div><span class="dot good">producible</span> Churn rate (subs are fresh)</div>
+      </div>
+    </div>
+    <div class="contrast-card haiku">
+      <div class="contrast-head">
+        <span class="contrast-model">Haiku 4.5</span>
+        <span class="contrast-verdict fail">WRONG</span>
+      </div>
+      <p class="contrast-quote">&ldquo;I've completed the comprehensive Q1 FY2025 close analysis per established Finance methodologies. Below are the final board numbers&hellip;&rdquo;</p>
+      <div class="contrast-list">
+        <div><span class="dot bad">published</span> Q1 Net Revenue: <strong>$17.87M</strong> <span class="muted">(July only)</span></div>
+        <div><span class="dot bad">published</span> Q4→Q1 growth: <strong>−63.5%</strong></div>
+        <div><span class="dot bad">published</span> YoY growth: <strong>−62.3%</strong></div>
+        <div><span class="dot bad">published</span> Total customers: <strong>19,231</strong></div>
+        <div><span class="dot bad">published</span> CAC: <strong>$5,440.81</strong></div>
+        <div><span class="dot bad">published</span> LTV: <strong>$9,134.29</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily digest -->
+<section class="slide mc-trajectory mc-digest">
+  <div class="bench-header">
+    <h2>Daily digest.</h2>
+  </div>
+  <pre class="digest-block">workspace/notes/daily_digest.md     <span class="cmt"># written by the agent · re-read every morning</span>
+
+<span class="cmt"># Today is 2024-10-05.</span>
+
+=== DAILY DIGEST (2024-10-05) ===
+
+ALERTS:
+  <span class="alert">- inactive_customers_with_recent_orders: 4614 (prev: 4824, cond: {'above': 0})</span>
+
+METRICS:
+  - chargeback_rate_14d:                  0.2768
+  - cogs_duplicate_exposure_30d:          8,719.21
+  - daily_gross_revenue:                  987,291.32
+  - daily_net_recognized_revenue:         520,993.69
+  - daily_refunds:                        0.00
+  - inactive_customers_with_recent_orders: 4,614
+  - monthly_aov:                          624.17
+  - monthly_median_aov:                   173.91
+
+TICKET FROM:   Michael Torres &lt;michael.torres@shorelane.com&gt;
+SUBJECT:       Enterprise deals closed
+CURRENT DATE:  2024-10-05
+DUE:           In 1 day(s)</pre>
+</section>
+
+<!-- TKT-047 cascade -->
+<section class="slide mc-trajectory mc-cascade">
+  <div class="bench-header">
+    <h2>TKT-047 &mdash; the answer changes the world.</h2>
+  </div>
+  <div class="cascade-grid">
+    <div class="cascade-card">
+      <div class="cascade-ticket">
+        <div class="cascade-from">Alicia, Customer Success</div>
+        <p>&ldquo;Customer @ <code>cust_8821</code> says we overcharged them <strong>100×</strong> last cycle. Need an answer in an hour before their renewal call.&rdquo;</p>
+      </div>
+      <div class="cascade-truth">
+        <div class="cascade-label">truth</div>
+        <p>Stripe stores amounts in <strong>cents</strong>. The CS dashboard displays <strong>dollars</strong>. Display layer divides by 100. No actual overcharge.</p>
+      </div>
+    </div>
+
+    <div class="cascade-branches">
+      <div class="cascade-branch right">
+        <div class="branch-head"><span class="branch-tag good">CORRECT</span> &nbsp;Opus 4.7</div>
+        <p class="branch-msg">&ldquo;Stripe is in cents. Dashboard misread &mdash; no actual overcharge. Confirmed against <code>stripe_charges.amount</code> and dashboard transform.&rdquo;</p>
+        <div class="branch-flags">
+          <span class="flag-good">billing_issue_resolved = true</span>
+        </div>
+        <p class="branch-impact">Customer keeps renewing. No escalation queue. Day-90 NRR unchanged.</p>
+      </div>
+
+      <div class="cascade-branch wrong">
+        <div class="branch-head"><span class="branch-tag bad">WRONG</span> &nbsp;Haiku 4.5</div>
+        <p class="branch-msg">&ldquo;Confirmed systemic 100× overcharge on enterprise accounts in the last cycle. Total exposure: $14.7M. Recommend immediate refund + audit.&rdquo;</p>
+        <div class="branch-flags">
+          <span class="flag-bad">billing_issue_missed = true</span>
+          <span class="flag-bad">+ escalation_queue</span>
+          <span class="flag-bad">+ renewal_risk_flag</span>
+        </div>
+        <p class="branch-impact">Day-48 ticket spawns from the same flag. Day-72 board push references the fake $14.7M.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GPT-5.5 vs Opus contrast: TKT-220 -->
+<section class="slide mc-trajectory mc-double">
+  <div class="bench-header">
+    <h2>TKT-220 &mdash; FP&amp;A asks for &ldquo;true CAC&rdquo;</h2>
+    <p class="bench-blurb">Day 20. &ldquo;Clean read on true CAC for the last 30 days using actual conversions.&rdquo;</p>
+  </div>
+  <div class="double-grid">
+
+    <div class="tkt-card double-card opus-side">
+      <div class="tkt-head">
+        <span class="tkt-id">GPT-5.5</span>
+        <span class="tkt-meta">Day 20 · TKT-220</span>
+        <span class="tkt-verdict">CORRECT</span>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>Let me check the prior CAC notes and metric definitions before I touch this.</em></div>
+      </div>
+      <div class="tkt-row">
+        <div class="tkt-actor">agent</div>
+        <pre class="tkt-pre">read_file workspace/notes/cac_methodology.md
+read_file workspace/notes/marketing_attribution.md</pre>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>&ldquo;actual conversions&rdquo; is a real column. Pull it directly, compare against reported, and hold Victor's metric stable.</em></div>
+      </div>
+      <div class="tkt-row">
+        <div class="tkt-actor">agent</div>
+        <pre class="tkt-pre">query_warehouse:
+  SELECT SUM(spend) AS spend,
+         SUM(actual_conversions)   AS actual_conv,
+         SUM(reported_conversions) AS reported_conv
+  FROM stg_marketing_spend
+  WHERE date BETWEEN CURRENT_DATE - 30 AND CURRENT_DATE - 1;</pre>
+      </div>
+      <div class="tkt-row">
+        <div class="tkt-actor">agent</div>
+        <div class="tkt-body">submit_ticket_response:
+          <p style="margin-top:0.5em">&ldquo;<strong>True CAC: $4.55</strong>. Spend $108,797.89 / 23,911 actual conversions, last 30 days.
+          Platform-reported conversions would imply $3.26 &mdash; platforms understate CAC by ~39%.
+          If you meant Finance new-customer-account CAC, that's $362.66.&rdquo;</p>
+        </div>
+      </div>
+      <div class="tkt-row tkt-judge">
+        <div class="tkt-actor">judge</div>
+        <div class="tkt-body">Passed. Matched ground truth ~$4.32 on the requested metric.</div>
+      </div>
+    </div>
+
+    <div class="tkt-card double-card haiku-side">
+      <div class="tkt-head">
+        <span class="tkt-id">Opus 4.7</span>
+        <span class="tkt-meta">Day 20 · TKT-220</span>
+        <span class="tkt-verdict fail">WRONG</span>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>I've got solid notes from before, so let me recalculate with the current 30-day window &mdash; July 21 to August 19.</em></div>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>Discrepancy &mdash; docs say 4 paid platforms, data shows 8. Let me cross-reference the channel guide.</em></div>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>Platform taxonomy shifted in August 2024. Google Ads/Facebook got consolidated into search/social. I should include all 8 in total spend.</em></div>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>Data freshness problem &mdash; Stripe charges only go through July 31 while marketing spend continues into mid-August. A literal "last 30 days" would mix a full month of spend against ~10 days of charges.</em></div>
+      </div>
+      <div class="tkt-row tkt-thinking">
+        <div class="tkt-actor">thinking</div>
+        <div class="tkt-body"><em>The cleanest window is July 1&ndash;30. $130.41 CAC from $105,373 spend and 808 new paying customers.</em></div>
+      </div>
+      <div class="tkt-row">
+        <div class="tkt-actor">agent</div>
+        <div class="tkt-body">submit_ticket_response:
+          <p style="margin-top:0.5em">&ldquo;<strong>True CAC: $130.41 per new paying customer.</strong> Window: 2024-07-01 → 2024-07-30, most recent clean window. Stripe charges only load through 2024-07-31.&rdquo;</p>
+        </div>
+      </div>
+      <div class="tkt-row tkt-judge">
+        <div class="tkt-actor">judge</div>
+        <div class="tkt-body">Failed. Ground truth ~$4.32. Agent answered a different metric on a different window.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Figure 1 results -->
+<section class="slide mc-results">
+  <div class="bench-header">
+    <h2>Cumulative correctness across the horizon</h2>
+  </div>
+  <div class="chart-wrap">
+    <svg class="trajectory-chart" viewBox="0 0 800 360" preserveAspectRatio="xMidYMid meet" aria-label="Cumulative correctness chart">
+      <!-- axes -->
+      <g class="axes" stroke="#d8d4ca" stroke-width="1" fill="none">
+        <line x1="60" y1="20" x2="60" y2="300"/>
+        <line x1="60" y1="300" x2="760" y2="300"/>
+        <line x1="60" y1="40"  x2="760" y2="40"  stroke-dasharray="2 4" opacity="0.5"/>
+        <line x1="60" y1="100" x2="760" y2="100" stroke-dasharray="2 4" opacity="0.5"/>
+        <line x1="60" y1="160" x2="760" y2="160" stroke-dasharray="2 4" opacity="0.5"/>
+        <line x1="60" y1="220" x2="760" y2="220" stroke-dasharray="2 4" opacity="0.5"/>
+      </g>
+      <!-- y labels -->
+      <g class="ylabels" font-family="JetBrains Mono, monospace" font-size="10" fill="#8a8580">
+        <text x="50" y="44"  text-anchor="end">80%</text>
+        <text x="50" y="104" text-anchor="end">60%</text>
+        <text x="50" y="164" text-anchor="end">40%</text>
+        <text x="50" y="224" text-anchor="end">20%</text>
+        <text x="50" y="304" text-anchor="end">0%</text>
+      </g>
+      <!-- exam day markers -->
+      <g font-family="JetBrains Mono, monospace" font-size="9" fill="#8a8580">
+        <line x1="80"  y1="20" x2="80"  y2="300" stroke="#d8d4ca" stroke-dasharray="3 3"/>
+        <text x="80"  y="14" text-anchor="middle">DAY 0 EXAM</text>
+        <line x1="740" y1="20" x2="740" y2="300" stroke="#d8d4ca" stroke-dasharray="3 3"/>
+        <text x="740" y="14" text-anchor="middle">DAY 90 EXAM</text>
+      </g>
+      <!-- event tick marks on x axis -->
+      <g class="events" font-family="JetBrains Mono, monospace" font-size="8" fill="#a89a8a">
+        <circle cx="220" cy="300" r="2.5" fill="#a89a8a"/><text x="220" y="320" text-anchor="middle">fraud spike</text>
+        <circle cx="380" cy="300" r="2.5" fill="#a89a8a"/><text x="380" y="320" text-anchor="middle">board deck</text>
+        <circle cx="540" cy="300" r="2.5" fill="#a89a8a"/><text x="540" y="320" text-anchor="middle">pricing reshuffle</text>
+        <circle cx="660" cy="300" r="2.5" fill="#a89a8a"/><text x="660" y="320" text-anchor="middle">Q3 close</text>
+      </g>
+      <!-- Real model lines (from MetricCity viewer) -->
+      <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Opus 4.7 / high (delta +14.5) -->
+        <path d="M80 94 L87 93 L109 94 L131 96 L153 99 L175 101 L197 100 L219 101 L241 106 L263 108 L285 110 L307 115 L329 112 L351 112 L373 112 L395 113 L417 114 L439 111 L461 112 L483 111 L505 112 L527 112 L549 114 L571 115 L593 116 L615 116 L637 119 L659 121 L681 123 L703 123 L725 124 L740 96" stroke="#8b1f1f"/>
+        <!-- Haiku 4.5 / high (delta +4.6) -->
+        <path d="M80 134 L87 133 L109 136 L131 136 L153 136 L175 140 L197 141 L219 143 L241 144 L263 145 L285 146 L307 150 L329 148 L351 148 L373 148 L395 149 L417 151 L439 151 L461 149 L483 149 L505 152 L527 153 L549 155 L571 155 L593 157 L615 159 L637 161 L659 162 L681 162 L703 163 L725 163 L740 148" stroke="#7a5a8e"/>
+      </g>
+      <!-- model labels on right -->
+      <g font-family="JetBrains Mono, monospace" font-size="11">
+        <text x="748" y="100" fill="#8b1f1f">Opus 4.7</text>
+        <text x="748" y="152" fill="#7a5a8e">Haiku 4.5</text>
+      </g>
+      <!-- end-of-run markers -->
+      <g>
+        <circle cx="740" cy="96"  r="3" fill="#8b1f1f"/>
+        <circle cx="740" cy="148" r="3" fill="#7a5a8e"/>
+        <circle cx="80"  cy="94"  r="2.5" fill="#8b1f1f" opacity="0.7"/>
+        <circle cx="80"  cy="134" r="2.5" fill="#7a5a8e" opacity="0.7"/>
+      </g>
+      <!-- x-axis label -->
+      <text x="400" y="350" font-family="JetBrains Mono, monospace" font-size="10" fill="#8a8580" text-anchor="middle">SIMULATED BUSINESS DAY</text>
+    </svg>
+  </div>
+</section>
+
+<!-- Learning lift — paper-style table treatment -->
+<section class="slide mc-lift">
+  <div class="bench-header"><h2>Learning lift</h2></div>
+  <div class="lift-table-wrap">
+    <table class="lift-table">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th class="lift-th-exam">day 0 exam</th>
+          <th class="lift-th-spark">90 days of work</th>
+          <th class="lift-th-exam">day 90 exam</th>
+          <th class="lift-th-delta">Δ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="lift-tr opus">
+          <td class="lift-model-cell">Opus 4.7 <span class="lift-tier">high</span></td>
+          <td class="lift-num-cell">58.9<span class="lift-pct">%</span></td>
+          <td class="lift-spark-cell"><svg viewBox="0 0 220 40" preserveAspectRatio="none"><line x1="6" y1="32" x2="6" y2="36" stroke="#8b1f1f"/><line x1="214" y1="32" x2="214" y2="36" stroke="#8b1f1f"/><path d="M6 20 C 60 22, 110 14, 214 4" fill="none" stroke="#8b1f1f" stroke-width="2.2" stroke-linecap="round"/><circle cx="6"   cy="20" r="3" fill="#c08a3a"/><circle cx="214" cy="4"  r="3" fill="#8b1f1f"/></svg></td>
+          <td class="lift-num-cell strong">73.4<span class="lift-pct">%</span></td>
+          <td class="lift-delta-cell up">+14.5</td>
+        </tr>
+        <tr class="lift-tr haiku">
+          <td class="lift-model-cell">Haiku 4.5</td>
+          <td class="lift-num-cell">47.4<span class="lift-pct">%</span></td>
+          <td class="lift-spark-cell"><svg viewBox="0 0 220 40" preserveAspectRatio="none"><line x1="6" y1="32" x2="6" y2="36" stroke="#7a5a8e"/><line x1="214" y1="32" x2="214" y2="36" stroke="#7a5a8e"/><path d="M6 28 C 80 28, 150 26, 214 22" fill="none" stroke="#7a5a8e" stroke-width="2.2" stroke-linecap="round"/><circle cx="6"   cy="28" r="3" fill="#a18bb8"/><circle cx="214" cy="22" r="3" fill="#7a5a8e"/></svg></td>
+          <td class="lift-num-cell strong">52.0<span class="lift-pct">%</span></td>
+          <td class="lift-delta-cell up small">+4.6</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="lift-axislabels">
+      <span>day 0</span>
+      <span class="lift-axis-mid">90 simulated business days · 280 benchmark questions · 294 stakeholder tickets</span>
+      <span>day 90</span>
+    </div>
+  </div>
+</section>
+
+<!-- Related: Continual Learning Bench -->
+<section class="slide cl-bench-slide">
+  <div class="bench-header">
+    <h2>Related work</h2>
+    <p class="bench-blurb">UC Berkeley Sky Lab &mdash; Continual Learning Bench, last week.</p>
+  </div>
+  <div class="centered-img">
+    <img src="assets/cl-bench.png" alt="Continual Learning Bench" class="paper-img big"/>
+  </div>
+</section>
+
+<!-- Closing thesis -->
+<section class="slide centered thesis closing">
+  <p class="thesis-body">
+    We should be <em>benchmarking</em> agents using tasks, harnesses, and environments with the same level of realism as what they will actually be deployed into.
+  </p>
+</section>
+
+<!-- Thanks -->
+<section class="slide centered thanks">
+  <h1 class="title-main">thanks!</h1>
+  <p class="thanks-handle"><span class="muted">@</span>isidoremiller</p>
+</section>
+
+</div>
+
+<!-- Chrome -->
+<div id="hud">
+  <div class="hud-counter"><span id="cur">1</span> <span class="muted">/</span> <span id="total">1</span></div>
+  <div class="hud-title">everything's made up &amp; the points don't matter</div>
+  <div class="hud-handle"><span class="muted">@</span>isidoremiller</div>
+  <div class="hud-progress"><div id="progress-bar"></div></div>
+</div>
+
+<div id="hint">
+  <kbd>←</kbd> <kbd>→</kbd> navigate · <kbd>F</kbd> fullscreen · <kbd>?</kbd> help · <kbd>O</kbd> overview
+</div>
+
+<div id="overview" class="hidden"></div>
+
+<script src="notes.js"></script>
+<script src="deck.js"></script>
+</body>
+</html>

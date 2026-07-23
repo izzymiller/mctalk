@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+/chrome/
+/pdf-shots/
+/pdf-shots.zip
+/shots/
+/extracted/
+/*.png
+/deck.pdf
+/talk.pptx
+/slide_content.md
+/blog-outline.md
